@@ -1,0 +1,43 @@
+*{
+	font-family: 'Open sans';
+}
+.center{
+	text-align: center;
+}
+header h1{
+	font-size: 50px;
+}
+
+.output{
+	width: 33.3%;
+	height: 50px;
+	background-color: gray;
+	border: 5px solid black;
+	display: inline-block;
+}
+input {
+	width: 25%;
+	height: 25px;
+	display: flex;
+	margin: 25px 10px;
+	display: inline-block;
+
+}
+input[type="submit"]{
+	background-color: skyblue;
+	height: 50px;
+	border: 0;
+	color: white;
+	cursor: pointer;
+	justify-content: center;
+}
+.output-item{
+	width: 30%;
+	border: 1px solid;
+	background-color: lightgray;
+	text-align: center;
+	margin-top: 20px;
+	border: 1px solid white;
+	box-shadow: 10px 5px 5px black;
+	display: inline-block;
+}

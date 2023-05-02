@@ -3,9 +3,30 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Ola</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	<title>TO-DO-LIST</title>
 </head>
 <body>
-
+	<header>
+		<h1 class="center">TO-DO-LIST</h1>
+	</header>
+	<section>
+		<div class="inp center">
+			Digite a tarefa:<input type="text" class="tarefa center"name="tarefa">
+			Digite o tempo estimado em minutos:<input type="number" class="tempo center" name="tempo">
+			<input type="submit" name="Enviar!" value="Adicionar!">
+		</div>
+	</section>
+	<section>
+		<div class="output-container">
+			
+		</div>
+	</section>
+	
+	<div class="soma-tempo"></div>
+	<script src="script.js"></script>
 </body>
 </html>
