@@ -5,7 +5,7 @@
 	text-align: center;
 }
 header h1{
-	font-size: 50px;
+	font-size: 35px;
 }
 
 .output{
@@ -36,8 +36,55 @@ input[type="submit"]{
 	border: 1px solid;
 	background-color: lightgray;
 	text-align: center;
+	margin: 10px 8px;
+	border: 1px solid white;
+	box-shadow: 10px 5px 5px black;
+	display: inline-block;
+}
+.output-container{
+	text-align: center;
+}
+.break{
+	display: inline-block;
+}
+@media screen and (max-width: 1024px) {
+	input {
+		width: 50%;
+		height: 25px;
+		display: block;
+		margin: 10px 10px;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+		float: right;
+		margin-right: 25%;
+	}
+	.break{
+		display: block;
+		text-align: center;
+	}
+	.b2{
+		margin-left: 35%;
+		float: left;
+	}
+	.output-item{
+	margin-top: 20px;
+	}
+}
+@media screen and (max-width: 660px){
+	.b2{
+		margin-left: 25%;
+		float: left;
+	}
+	.output-item{
+	width: 80%;
+	border: 1px solid;
+	background-color: lightgray;
+	text-align: center;
 	margin-top: 20px;
 	border: 1px solid white;
 	box-shadow: 10px 5px 5px black;
 	display: inline-block;
+	}
 }
